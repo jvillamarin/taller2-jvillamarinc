@@ -1,0 +1,1 @@
+Hola este es el repositorio para subir el taller 2 de frontend intermedio -John Villamarin

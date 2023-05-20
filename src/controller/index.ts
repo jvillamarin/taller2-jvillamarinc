@@ -72,8 +72,7 @@ export const updateState = async (myHeaders: Headers, bodyContent: string, idStu
       headers: myHeaders
     });
 
-    let data = await response.json();
-    console.log(data);
+    let data = await response.json();    
   }
   catch (error) {
     console.log(error);

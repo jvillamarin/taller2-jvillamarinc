@@ -1,0 +1,43 @@
+label {
+	display: block;
+	/* margin-bottom: 5px; */
+	font-size: 16px;
+	font-weight: bold;
+}
+
+select {
+	background-color: #fff;
+}
+.error-message {
+	color: #ff0000;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+input.invalid, select.invalid{
+	border: 2px solid #ff0000;	
+}
+.error-message, .successful-message{
+	display: none;
+}
+.error-active, .successful-message-active{
+	display: block;
+}
+
+.successful-message-active{	
+    color: rgb(252, 252, 252);
+	font-size: 20px;
+	background-color: #3e8e41;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+.error-active{	
+    color: rgb(252, 252, 252);
+	font-size: 14px;
+	background-color: #ff0000;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+.input-group>.form-control, .input-group>.form-select {
+    width: 50%;
+}
